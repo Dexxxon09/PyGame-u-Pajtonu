@@ -3,6 +3,7 @@ Materijali za kurs PyGame у Pajtonu
 
 ### Plan Rada
 * *Dvocas 1*: Dvodimenziona grafika i biblioteka Pygame, koriscenje, instalacija
+  * [Uputstvo za instalaciju PyGame-a i PyCharm-a kod kuce](cas_1/instalacija_kod_kuce.md)
 * *Dvocas 2-3*: Crtanje osnovnih oblika (boje, koordinate, duzi, pravougaonici, krugovi)
 * *Dvocas 4-6*: Crtanje pravilnih oblika uz pomoc petlji
 * *Dvocas 7-10:* Animacije, simulacija kretanja
