@@ -16,7 +16,7 @@ vrednost **y** koordinate veca.
 > Koordinatni sitem u racunarstvu  
 > *Izvor: [petlja.org](https://petlja.org)*
 
- Drugim recima, prva koordinata odredjuje koliko je tacka
+Drugim recima, prva koordinata odredjuje koliko je tacka
 udaljena od leve ivice prozora, a druga koliko je tacka
 udaljena od gornje ivice prozora.
 
@@ -49,6 +49,14 @@ boja psenice (`wheat`).
 
 > ![](ilustracije/sve_boje.png)  
 > [*sve_boje.py*](sve_boje.py)
+
+### RGB boje
+Pored predefinisanih, mozete koristiti i boje zadatake u RGB formatu
+koji opisuje boju kao kombinaciju crvene (Red), zelene (Green) i plave
+(Blue). Na primer, crvena boja `pygame.Color('red')` je isto sto i 
+`(255, 0, 0)` u RBG fromatu, pa mozemo je zapisati i na ovaj nacin.
+
+RGB vrednosti za boje mozete odrediti uz pomoc [ove Guglove alatke](https://g.co/kgs/ZKe38V).
 
 ## Crtanje osnovnih oblika
 Sve funkcije za crtanje u biblioteci PyGame pocinju sa `pygame.draw`.
@@ -98,6 +106,17 @@ pygame.quit()
 > ![](ilustracije/crtanje_pravougaonika.png)  
 > [*crtanje_pravougaonika.py*](crtanje_pravougaonika.py)
 
+Mozemo dodati i cetvrti parametar `width` koji predstavlja debljinu konture u pikselima.
+U ovom slucaju oblik koji nacrtamo nece biti popunjen, to jest nacrtace se samo njegova
+kontura:
+```python
+pygame.draw.rect(prozor, pygame.Color('green'), (50, 100, 150, 150), 2)  # zeleni kvadrat dimenzija 150x150
+pygame.draw.rect(prozor, pygame.Color('red'), (100, 50, 200, 100), 2)  # crveni pravougaonik dimenzija 200x100
+```
+> ![](ilustracije/crtanje_pravougaonika_konture.png)  
+
+Isto vazi i za sve sledece oblike.
+
 ### Crtanje krugova
 Funkcija koja se koristi za crtanje krugova je `pygame.draw.circle`.
 Parametri ove funkcije redom su:
@@ -115,6 +134,15 @@ pygame.draw.circle(prozor, pygame.Color('white'), (200, 150), 50)
 > ![](ilustracije/crtanje_krugova.png)  
 > [*crtanje_krugova.py*](crtanje_krugova.py)
 
+### Crtanje elipsi
+Funkcija koja se koristi za crtanje krugova je `pygame.draw.ellipse`.
+Parametri ove funkcije redom su:
+1. prozor
+2. boja
+3. koordinate pravougaonika u koji je elipsa upisana
+
+> ![](ilustracije/crtanje_elipsi.png.)  
+> [*crtanje_krugova.py*](crtanje_elipsi.py)
 
 ### Bonus: imenovani parametri
 U Pajtonu posotje takozvani imenovani parametri. Kada pozivamo funkciju, 
@@ -151,15 +179,7 @@ izabranom bojom. Na primer:
 pygame.draw.polygon(surface=prozor,
                     color=pygame.Color('green'),
                     points=[(50, 50), (350, 50), (50, 250)])
-```
 
-Postoji mogucnost da se doda i cetvrti argument:
-4. width: debljina stranice u pikselima
-
-U ovom slucaju bice nacrtana samo kontura odgovrajuce boje, a 
-unutrasnjost nece biti obojena.
-
-```python
 # neobojena crvena kontura
 pygame.draw.polygon(surface=prozor,
                     color=pygame.Color('red'),

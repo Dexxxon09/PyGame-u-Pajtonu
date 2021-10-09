@@ -4,7 +4,7 @@ pygame.init()
 prozor = pygame.display.set_mode((400, 300))
 
 """
-Duz se crta funkcijom pygame.draw.circle()
+Krug se crta funkcijom pygame.draw.circle()
 Njeni parametri su:
     - surface: povrsina na kojoj se duz crta
     - color: boja kruga

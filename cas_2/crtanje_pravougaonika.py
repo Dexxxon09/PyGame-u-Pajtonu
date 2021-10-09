@@ -4,7 +4,7 @@ pygame.init()
 prozor = pygame.display.set_mode((400, 300))
 
 """
-Duz se crta funkcijom pygame.draw.rectangle()
+Pravougaonik se crta funkcijom pygame.draw.rectangle()
 Njeni parametri su:
     - surface: povrsina na kojoj se duz crta
     - color: boja pravougaonika
