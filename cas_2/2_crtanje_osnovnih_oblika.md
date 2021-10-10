@@ -141,8 +141,8 @@ Parametri ove funkcije redom su:
 2. boja
 3. koordinate pravougaonika u koji je elipsa upisana
 
-> ![](ilustracije/crtanje_elipsi.png.)  
-> [*crtanje_krugova.py*](crtanje_elipsi.py)
+> ![](ilustracije/crtanje_elipsi.png)  
+> [*crtanje_elipsi.py*](crtanje_elipsi.py)
 
 ### Bonus: imenovani parametri
 U Pajtonu posotje takozvani imenovani parametri. Kada pozivamo funkciju, 
