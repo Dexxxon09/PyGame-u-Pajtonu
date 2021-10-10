@@ -5,7 +5,9 @@ Materijali za kurs PyGame у Pajtonu
 * *Dvocas 1*: Dvodimenziona grafika i biblioteka Pygame, koriscenje, instalacija
   * [Uputstvo za instalaciju PyGame-a i PyCharm-a kod kuce](cas_1/instalacija_kod_kuce.md)
 * *Dvocas 2-3*: Crtanje osnovnih oblika (boje, koordinate, duzi, pravougaonici, krugovi)
-  * [Teorija](cas_2/2_crtanje_osnovnih_oblika.md) // Domaci
+  * [Teorija](cas_2/2_crtanje_osnovnih_oblika.md)
+  * [Kod sa casa](cas_2/prvi_primer.py)
+  * [Zadaci (i domaci)](cas_2/zadaci.jpg)
 * *Dvocas 4-6*: Crtanje pravilnih oblika uz pomoc petlji
 * *Dvocas 7-10:* Animacije, simulacija kretanja
 * *Dvocas 11-13*: Upravljanje dogadjajima, programiranje reakcije programa na koriscenje misa i tastature
