@@ -21,15 +21,15 @@ udaljena od leve ivice prozora, a druga koliko je tacka
 udaljena od gornje ivice prozora.
 
 ## Boje
-Prosli cas smo pricali or RGB nacinu zapisivanja boja. Boje
-je moguce zadavati na taj nacin, ali u PyGame postoje i 
+Prosli cas smo pricali o RGB nacinu zapisivanja boja. Boje
+je moguce zadavati na taj nacin, ali u PyGame postoji i 
 predefinisan skup osnovnih boja. Medju njima su boje poput
 crvene, zelene, crne, zute, itd. Koristimo ih tako sto napisemo
 `pygame.Color('naziv boje na engleskom')`. Na primer, 
 `pygame.Color('yellow')` je zuta boja, a 
 `pygame.Color('red')` je crvena.
 
-Pokretanjem koda
+Pokretanjem koda ...
 ```python
 import pygame
 pygame.init()
@@ -39,7 +39,7 @@ pygame.display.flip()  # promene u baferu saljemo na ekran
 pygame.time.wait(3000)
 pygame.quit()
 ```
-
+... dobijamo prozor dimenzija 400x300 sa zutom pozadinom:
 > ![](ilustracije/zuti_prozor.png)  
 > [*zuti_prozor.py*](zuti_prozor.py)
 
@@ -56,7 +56,7 @@ koji opisuje boju kao kombinaciju crvene (Red), zelene (Green) i plave
 (Blue). Na primer, crvena boja `pygame.Color('red')` je isto sto i 
 `(255, 0, 0)` u RBG fromatu, pa mozemo je zapisati i na ovaj nacin.
 
-RGB vrednosti za boje mozete odrediti uz pomoc [ove Guglove alatke](https://g.co/kgs/ZKe38V).
+RGB vrednosti za boje mozete odrediti uz pomoc [ove Guglove alatke](https://g.co/kgs/ZKe38V) (Color Picker).
 
 ## Crtanje osnovnih oblika
 Sve funkcije za crtanje u biblioteci PyGame pocinju sa `pygame.draw`.
@@ -134,17 +134,8 @@ pygame.draw.circle(prozor, pygame.Color('white'), (200, 150), 50)
 > ![](ilustracije/crtanje_krugova.png)  
 > [*crtanje_krugova.py*](crtanje_krugova.py)
 
-### Crtanje elipsi
-Funkcija koja se koristi za crtanje krugova je `pygame.draw.ellipse`.
-Parametri ove funkcije redom su:
-1. prozor
-2. boja
-3. koordinate pravougaonika u koji je elipsa upisana
 
-> ![](ilustracije/crtanje_elipsi.png)  
-> [*crtanje_elipsi.py*](crtanje_elipsi.py)
-
-### Bonus: imenovani parametri
+## Bonus: imenovani parametri
 U Pajtonu posotje takozvani imenovani parametri. Kada pozivamo funkciju, 
 takve parametre mozemo prosledjivati po imeno i u proizvoljnom redosledu.
 
@@ -163,32 +154,3 @@ pygame.draw.line( surface = prozor,
                   width = 5 )
 ```
 U daljim materijalima cemo koristiti bas ovakav zapis.
-
-### Bonus: crtanje mnogouglova
-Mnogougao se crta funkcijom `pygame.draw.polygon()`
-Njeni parametri su:
-1. surface: povrsina na kojoj se duz crta
-2. color: boja
-3. points: lista koordinata temena mnogougla
-
-Funkcija sa ova tri parametra iscrtava mnogougao i popunjava ga 
-izabranom bojom. Na primer:
-
-```python
-# obojen zeleni trougao
-pygame.draw.polygon(surface=prozor,
-                    color=pygame.Color('green'),
-                    points=[(50, 50), (350, 50), (50, 250)])
-
-# neobojena crvena kontura
-pygame.draw.polygon(surface=prozor,
-                    color=pygame.Color('red'),
-                    points=[(350, 250), (350, 50), (50, 250)],
-                    width=5)
-```
-
-> ![](ilustracije/crtanje_mnogougla.png)  
-> [*crtanje_mnogugla.py*](crtanje_mnogougla.py)
-
-
-
