@@ -16,8 +16,13 @@ Materijali za kurs PyGame у Pajtonu
     * [Zadaci i domaci](cas_2/zadaci.jpg)
 03. nedelja (17.10)
     * [Elipse i mnogouglovi](cas_3/3_crtanje_elipsi_mnogouglova.md)
-    * Kod sa casa
-    * Zadaci i domaci
+    * Kodovi sa casa: 
+      [elipsa](cas_3/elipsa.py),
+      [ivica](cas_3/ivica.py),
+      [trougao](cas_3/trougao.py),
+      [mnogougao](cas_3/mnogougao.py)
+    * [Jelka](cas_3/jelka.py) i [dijagram](cas_3/jelka.jpg)
+    * [Zadatak sa casa](cas_3/zvezda.jpg) i [domaci](cas_3/3_domaci.md)
 
 *Dvocas 4-6*: Crtanje pravilnih oblika uz pomoc petlji
 
