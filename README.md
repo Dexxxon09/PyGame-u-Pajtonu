@@ -26,9 +26,12 @@ Materijali za kurs PyGame у Pajtonu
 
 *Dvocas 4-6*: Crtanje pravilnih oblika uz pomoc petlji
 
-04. nedelja (24.10)  
-05. nedelja (31.10)  
-06. nedelja (7.11)
+4. nedelja (24.10)  
+    * [Obnavljanje](cas_4/4_obnavljanje.md)
+    * [Petlje su kul + domaci](cas_4/4_zadaci_i_domaci.md)
+    * [Animacija kretanja](cas_4/4_animacija.md)
+5. nedelja (31.10)  
+6. nedelja (7.11)
 
 *Dvocas 7-10:* Animacije, simulacija kretanja
 
