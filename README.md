@@ -29,6 +29,7 @@ Materijali za kurs PyGame у Pajtonu
 4. nedelja (24.10)  
     * [Obnavljanje](cas_4/4_obnavljanje.md)
     * [Petlje su kul + domaci](cas_4/4_zadaci_i_domaci.md)
+    * [Bonus zadatak: sahovska tabla](cas_4/4_bonus.md)
     * [Animacija kretanja](cas_4/4_animacija.md)
 5. nedelja (31.10)  
 6. nedelja (7.11)
