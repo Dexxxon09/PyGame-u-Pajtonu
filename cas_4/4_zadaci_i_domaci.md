@@ -1,4 +1,4 @@
-# 4. nedelja
+# 4. nedelja: crtanje pravilnih oblika uz pomoc petlji
 
 ## Zadatak 0: krugovi
 Napisite PyGame program koji crta **koncentricne** krugove
@@ -7,11 +7,19 @@ petlji (`for` ili `while`).
 [🔗 Podsetnik kako se koriste petlje](https://petlja.org/biblioteka/r/lekcije/prirucnik-python/kontrolatoka-cas11#id12)  
 <details>
   <summary>Hint</summary>
+<blockquote>
   Razmislite o tome koja vrednost se menja tokom promene velicine kruga.<br>
   Neka ta vrednost bude brojac u petlji.
+</blockquote>
 </details>  
 <details>
   <summary>Resenje</summary>
+<blockquote>
+Kod u petlji se ponavlja 5 puta, pri cemu <code>i</code> prolazi 
+kroz vrednosti <code>[0,4]</code>. Crtamo 5 koncentricnih krugova
+ciji su poluprecnici <code>(i+1)*40</code>, to jest 40, 80, 120, 
+160 i 200.
+</blockquote>
 
     import pygame   
     pygame.init()   
