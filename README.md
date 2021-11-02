@@ -5,16 +5,16 @@ Materijali za kurs PyGame у Pajtonu
 
 *Dvocas 1*: Dvodimenziona grafika i biblioteka Pygame, koriscenje, instalacija
 
-01. nedelja (3.10)
+1. nedelja (3.10)
     * [Uputstvo za instalaciju PyGame-a i PyCharm-a kod kuce](cas_1/instalacija_kod_kuce.md)
 
 *Dvocas 2-3*: Crtanje osnovnih oblika (boje, koordinate, duzi, pravougaonici, krugovi)  
 
-02. nedelja (10.10)
-    * [Koordinate, boje, duzi, pravougaonici i krugovi](cas_2/2_crtanje_osnovnih_oblika.md)
-    * [Kod sa casa](cas_2/cas_2.py)
-    * [Zadaci i domaci](cas_2/zadaci.jpg)
-03. nedelja (17.10)
+2. nedelja (10.10)
+   * [Koordinate, boje, duzi, pravougaonici i krugovi](cas_2/2_crtanje_osnovnih_oblika.md)
+   * [Kod sa casa](cas_2/cas_2.py)
+   * [Zadaci i domaci](cas_2/zadaci.jpg)
+3. nedelja (17.10)
     * [Elipse i mnogouglovi](cas_3/3_crtanje_elipsi_mnogouglova.md)
     * Kodovi sa casa: 
       [elipsa](cas_3/elipsa.py),
@@ -31,7 +31,10 @@ Materijali za kurs PyGame у Pajtonu
     * [Petlje su kul + domaci](cas_4/4_zadaci_i_domaci.md)
     * [Bonus zadatak: sahovska tabla](cas_4/4_bonus.md)
     * [Animacija kretanja](cas_4/4_animacija.md)
-5. nedelja (31.10)  
+5. nedelja (31.10)
+    * [Zadaci sa casa](cas_5/5_petlje_vezbanje.md) i [resenja](cas_5)
+    * Domaci 1: [bonus zadatak sa proslog casa](cas_4/4_bonus.md)
+    * Domaci 2: 
 6. nedelja (7.11)
 
 *Dvocas 7-10:* Animacije, simulacija kretanja
