@@ -33,8 +33,8 @@ Materijali za kurs PyGame у Pajtonu
     * [Animacija kretanja](cas_4/4_animacija.md)
 5. nedelja (31.10)
     * [Zadaci sa casa](cas_5/5_petlje_vezbanje.md) i [resenja](cas_5)
-    * Domaci 1: [bonus zadatak sa proslog casa](cas_4/4_bonus.md)
-    * Domaci 2: 
+    * [Domaci 1: bonus zadatak sa proslog casa](cas_4/4_bonus.md)
+    * [Domaci 2](cas_5/5_domaci.md)
 6. nedelja (7.11)
 
 *Dvocas 7-10:* Animacije, simulacija kretanja
