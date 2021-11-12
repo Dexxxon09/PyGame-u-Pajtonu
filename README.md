@@ -34,8 +34,12 @@ Materijali za kurs PyGame у Pajtonu
 5. nedelja (31.10)
     * [Zadaci sa casa](cas_5/5_petlje_vezbanje.md) i [resenja](cas_5)
     * [Domaci 1: bonus zadatak sa proslog casa](cas_4/4_bonus.md)
-    * [Domaci 2](cas_5/5_domaci.md)
+    * [Domaci 2](cas_5/5_domaci.md) ([resenje](cas_5/domaci_resenje.py))
 6. nedelja (7.11)
+    * Podsetniik: 
+   [osnovna struktura PyGame programa](cas_6/podsetnik_osnovna_struktura.md) & 
+   [spisak funkcija za crtanje](cas_6/podsetnik_crtanje.md)
+    * [Veliki Domaci](cas_6/6_domaci.md)
 
 *Dvocas 7-10:* Animacije, simulacija kretanja
 
@@ -51,7 +55,6 @@ Materijali za kurs PyGame у Pajtonu
 *Dvocas 18-20*: Izrada projektnog zadatka
  
 ## Korisni linkovi
-* [Petljin PyGame prirucnik](https://petlja.org/biblioteka/r/kursevi/pygame-prirucnik)
 * [Petljin Python prirucnik](https://petlja.org/biblioteka/r/kursevi/prirucnik-python) (super ako zelite da obnovite osnove Pajtona)
 * [w3schools python tutorial](https://www.w3schools.com/python/default.asp) (na engleskom)
 * [oficijalna PyGame dokumentacija](https://www.pygame.org/docs/) (na engleskom)
