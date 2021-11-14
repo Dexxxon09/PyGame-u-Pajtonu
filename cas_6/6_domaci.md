@@ -56,6 +56,10 @@ da su u prvoj dijagonali nule, u drugoj jedinice, itd..:
 >       3 4 5 6 7 
 >       4 5 6 7 8 
 
+<details>
+  <summary>Ispisivanje vise brojeva u jednoj vrsti</summary>
+<blockquote>
+
 Naredba `print` nakon ispisa prelazi u novu liniju.
 Kako bi ste vise puta koristili `print` naredbu za 
 ispisavnje jednog reda, potrebno je da dodate opcioni 
@@ -74,6 +78,30 @@ ispisuje
 12
 3
 ```
+`end` predstavlja karakter ili niz karaktera koji 
+print dodaje na ispis. Ako ovaj argument ne navedemo,
+`end` ima vrednost prelaska u novu liniju. `end` moze 
+biti bilo sta, na primer:
+```python
+print(1, end=":")
+print(2)
+```
+ispisuje
+```
+1:2
+```
+a kod
+```python
+print(1, end=" ")
+print(2, end=" ")
+print(3)
+```
+ispisuje
+```
+1 2 3
+```
+</blockquote>
+</details>
 
 ## PyGame zadaci
 Napisite kodove koje iscrtavaju sledece slike:
