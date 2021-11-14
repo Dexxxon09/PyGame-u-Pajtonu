@@ -24,7 +24,6 @@ Niz ispisite koriscenjem naredbe `print(arr)`, ne moramo tu nista da komplikujem
 ### Petlja za ulaz
 Napisi program koji na ulazu prihvata prirodne brojeve sve dok se ne unese `0`, 
 pa zatim ispisuje zbir unetih brojeva.
-
 > **Primer**
 > 
 >       1
@@ -56,6 +55,25 @@ da su u prvoj dijagonali nule, u drugoj jedinice, itd..:
 >       2 3 4 5 6 
 >       3 4 5 6 7 
 >       4 5 6 7 8 
+
+Naredba `print` nakon ispisa prelazi u novu liniju.
+Kako bi ste vise puta koristili `print` naredbu za 
+ispisavnje jednog reda, potrebno je da dodate opcioni 
+argument `end`:
+```python
+print("nesto", end="")
+```
+Sledeci kod
+```python
+print(1, end="")
+print(2)
+print(3)
+```
+ispisuje
+```
+12
+3
+```
 
 ## PyGame zadaci
 Napisite kodove koje iscrtavaju sledece slike:
