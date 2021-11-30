@@ -43,9 +43,11 @@ Materijali za kurs PyGame у Pajtonu
 
 *Dvocas 7-10:* Animacije, simulacija kretanja
 
-07. nedelja (28.11)
-08. nedelja (5.12)
-09. nedelja (12.12)
+7. nedelja (28.11)
+   * [Iscrtavanje slike i transofrmacije](cas_7/sprite.py)
+   * [Animacija smenjivanjem slika](cas_7/animirana_macka.py)
+8. nedelja (5.12)
+9. nedelja (12.12)
 10. nedelja (26.12)
 
 *Dvocas 11-13*: Upravljanje dogadjajima, programiranje reakcije programa na koriscenje misa i tastature
