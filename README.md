@@ -39,17 +39,18 @@ Materijali za kurs PyGame у Pajtonu
     * Podsetniik: 
    [osnovna struktura PyGame programa](cas_6/podsetnik_osnovna_struktura.md) & 
    [spisak funkcija za crtanje](cas_6/podsetnik_crtanje.md)
-    * [Veliki Domaci](cas_6/6_domaci.md)
+    * [Veliki Domaci](cas_6/6_domaci.md) i [resenja](cas_7/domaci_resenja)
 
 *Dvocas 7-10:* Animacije, simulacija kretanja
 
 7. nedelja (28.11)
+   * [Resenja domaceg zadatka](cas_7/domaci_resenja)
    * [Iscrtavanje slike i transofrmacije](cas_7/sprite.py)
    * [Animacija smenjivanjem slika](cas_7/animirana_macka.py)
    * [Slicice (zip)](https://github.com/daniilgrbic/PyGame-u-Pajtonu/releases/download/assets/macka_puca.zip)
-8. nedelja (5.12)
-9. nedelja (12.12)
-10. nedelja (26.12)
+9. nedelja (5.12)
+10. nedelja (12.12)
+11. nedelja (26.12)
 
 *Dvocas 11-13*: Upravljanje dogadjajima, programiranje reakcije programa na koriscenje misa i tastature
 
