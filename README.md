@@ -46,6 +46,7 @@ Materijali za kurs PyGame у Pajtonu
 7. nedelja (28.11)
    * [Iscrtavanje slike i transofrmacije](cas_7/sprite.py)
    * [Animacija smenjivanjem slika](cas_7/animirana_macka.py)
+   * [Slicice (zip)](https://github.com/daniilgrbic/PyGame-u-Pajtonu/releases/download/assets/macka_puca.zip)
 8. nedelja (5.12)
 9. nedelja (12.12)
 10. nedelja (26.12)
