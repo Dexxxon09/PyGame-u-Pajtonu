@@ -17,6 +17,6 @@ while program_radi:
     """
 
     pygame.display.flip()
-    sat.tick(2)
+    sat.tick(30)
 
 pygame.quit()
