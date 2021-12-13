@@ -53,8 +53,12 @@ Materijali za kurs PyGame у Pajtonu
    * [Novi sablon](cas_8/template.py)
    * [Strukture](cas_8/strukture.py)
    * [Leteci mis sa novim sablonomi strukturom](cas_8/slepi_mis_2.py)
-10. nedelja (12.12)
-11. nedelja (26.12)
+9. nedelja (12.12)
+   * [kretanje.py](cas_9/kretanje.py) (mis se krece u jednm pravcu)
+   * [odbijanje.py](cas_9/odbijanje_od_zidova.py) (mis se odbija i ide levo desno)
+   * [skrinsejver.py](cas_9/skrinsejver.py) (mis se odbija od sva cetiri zida i ne moze da napusit prozor)
+   * Domaci: proci kroz fajl [koriscenje_vektora.py](cas_9/koriscenje_vektora.py)
+10. nedelja (26.12)
 
 *Dvocas 11-13*: Upravljanje dogadjajima, programiranje reakcije programa na koriscenje misa i tastature
 
