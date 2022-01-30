@@ -62,6 +62,10 @@ Materijali za kurs PyGame у Pajtonu
 
 *Dvocas 11-13*: Upravljanje dogadjajima, programiranje reakcije programa na koriscenje misa i tastature
 
+11. nedelja (30.1)
+   * [Aktivno pracenje klika](cas_11/get_pressed.py)
+   * [Dogadjaji](cas_11/dogadjaji.py)
+
 *Dvocas 14-17*: Programiranje igara, razliciti primeri
 
 *Dvocas 18-20*: Izrada projektnog zadatka
