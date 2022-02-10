@@ -1,18 +1,13 @@
 import pygame
+from boje import *
 
 pygame.init()
 prozor = pygame.display.set_mode((600,600))
 sat = pygame.time.Clock()
 
-prozor.fill((0,0,0))
+prozor.fill(CRNA)
 
-boja = "white"
-
-# na tastaturi
-# w - white
-# r - red
-# g - green
-# b - blue
+boja = "white"  # trenutna boja crtanja
 
 program_radi = True
 while program_radi:
@@ -20,23 +15,36 @@ while program_radi:
         if dogadjaj.type == pygame.QUIT:
             pygame.image.save(prozor, "slika.png")
             program_radi = False
+
+        """
+        Klikom na tastere 'w', 'r', 'g' i 'b' menjamo boju cetkice
+           w - white
+           r - red
+           g - green
+           b - blue
+        """
         if dogadjaj.type == pygame.KEYDOWN:
             if dogadjaj.key == pygame.K_w:
-                boja = "white"
+                boja = BELA
             if dogadjaj.key == pygame.K_r:
-                boja = "red"
+                boja = CRVENA
             if dogadjaj.key == pygame.K_g:
-                boja = "green"
+                boja = ZELENA
             if dogadjaj.key == pygame.K_b:
-                boja = "blue"
+                boja = PLAVA
 
+    """
+    Gledamo gde se nalazi kursor misa, pa onda da li je stisnuto neko dugmo
+    - Ako je stisnuto levo dugmo, crtamo trenutnom bojom
+    - Ako je stisnuto desno dugme - brisemo (to jest crtamo crnom bojom)
+    """
     pozicijaKursora = pygame.mouse.get_pos()
     if pygame.mouse.get_pressed()[0]:
-        pygame.draw.circle(prozor, pygame.Color(boja), pozicijaKursora, 5)
+        pygame.draw.circle(prozor, boja, pozicijaKursora, 5)
     if pygame.mouse.get_pressed()[2]:
-        pygame.draw.circle(prozor, pygame.Color("black"), pozicijaKursora, 5)
+        pygame.draw.circle(prozor, CRNA, pozicijaKursora, 5)
 
     pygame.display.flip()
-    sat.tick(144)
+    sat.tick(60)
 
 pygame.quit()
