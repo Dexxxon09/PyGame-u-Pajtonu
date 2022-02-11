@@ -11,9 +11,9 @@ Materijali za kurs PyGame у Pajtonu
 *Dvocas 2-3*: Crtanje osnovnih oblika (boje, koordinate, duzi, pravougaonici, krugovi)  
 
 2. nedelja (10.10)
-   * [Koordinate, boje, duzi, pravougaonici i krugovi](cas_02/2_crtanje_osnovnih_oblika.md)
-   * [Kod sa casa](cas_02/cas_2.py)
-   * [Zadaci i domaci](cas_02/zadaci.jpg)
+    * [Koordinate, boje, duzi, pravougaonici i krugovi](cas_02/2_crtanje_osnovnih_oblika.md)
+    * [Kod sa casa](cas_02/cas_2.py)
+    * [Zadaci i domaci](cas_02/zadaci.jpg)
 3. nedelja (17.10)
     * [Elipse i mnogouglovi](cas_03/3_crtanje_elipsi_mnogouglova.md)
     * Kodovi sa casa: 
@@ -44,20 +44,20 @@ Materijali za kurs PyGame у Pajtonu
 *Dvocas 7-10:* Animacije, simulacija kretanja
 
 7. nedelja (28.11)
-   * [Resenja domaceg zadatka](cas_07/domaci_resenja)
-   * [Iscrtavanje slike i transofrmacije](cas_07/sprite.py)
-   * [Animacija smenjivanjem slika](cas_07/animirana_macka.py)
-   * [Slicice (zip)](https://github.com/daniilgrbic/PyGame-u-Pajtonu/releases/download/assets/macka_puca.zip)
+    * [Resenja domaceg zadatka](cas_07/domaci_resenja)
+    * [Iscrtavanje slike i transofrmacije](cas_07/sprite.py)
+    * [Animacija smenjivanjem slika](cas_07/animirana_macka.py)
+    * [Slicice (zip)](https://github.com/daniilgrbic/PyGame-u-Pajtonu/releases/download/assets/macka_puca.zip)
 8. nedelja (5.12)
-   * [Leteci mis](cas_08/slepi_mis_1.py)
-   * [Novi sablon](cas_08/template.py)
-   * [Strukture](cas_08/strukture.py)
-   * [Leteci mis sa novim sablonomi strukturom](cas_08/slepi_mis_2.py)
+    * [Leteci mis](cas_08/slepi_mis_1.py)
+    * [Novi sablon](cas_08/template.py)
+    * [Strukture](cas_08/strukture.py)
+    * [Leteci mis sa novim sablonomi strukturom](cas_08/slepi_mis_2.py)
 9. nedelja (12.12)
-   * [kretanje.py](cas_09/kretanje.py) (mis se krece u jednm pravcu)
-   * [odbijanje.py](cas_09/odbijanje_od_zidova.py) (mis se odbija i ide levo desno)
-   * [skrinsejver.py](cas_09/skrinsejver.py) (mis se odbija od sva cetiri zida i ne moze da napusit prozor)
-   * Domaci: proci kroz fajl [koriscenje_vektora.py](cas_09/koriscenje_vektora.py)
+    * [kretanje.py](cas_09/kretanje.py) (mis se krece u jednm pravcu)
+    * [odbijanje.py](cas_09/odbijanje_od_zidova.py) (mis se odbija i ide levo desno)
+    * [skrinsejver.py](cas_09/skrinsejver.py) (mis se odbija od sva cetiri zida i ne moze da napusit prozor)
+    * Domaci: proci kroz fajl [koriscenje_vektora.py](cas_09/koriscenje_vektora.py)
 10. nedelja (26.12)
 
 *Dvocas 11-13*: Upravljanje dogadjajima, programiranje reakcije programa na koriscenje misa i tastature
@@ -67,7 +67,10 @@ Materijali za kurs PyGame у Pajtonu
     * [Dogadjaji](cas_11/dogadjaji.py)
     * [Kostur programa](cas_08/template.py)
 12. nedelja (6.2)
-    * [paint.py](cas_12/paint.py) 
+    * [paint.py](cas_12/paint.py) i [poboljsan paint.py](cas_12/paint_poboljsan.py) 
+     <br> <img src="cas_12/slika.png" style="width:200px">
+    * [Matrice i domaci](cas_12/matrice.md)
+    * [Iks Oks sa komentarima](cas_12/iks_oks.py) 
 
 *Dvocas 14-17*: Programiranje igara, razliciti primeri
 
