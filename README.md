@@ -79,9 +79,9 @@ Materijali za kurs PyGame у Pajtonu
      <br> <img src="cas_14/raketa.gif" style="height:200px">
 
 *Dvocas 15-17*: Programiranje igara, razliciti primeri
-15. nedelja (20.3) - Zmijica 🐍
-16. nedelja (27.3) - Space Invaders 👾
-17. nedelja (3.4) - Flappy Bird 🐦
+15. nedelja (20.3) - Zmijica 🐍  
+16. nedelja (27.3) - Space Invaders 👾  
+17. nedelja (3.4) - Flappy Bird 🐦  
 
 *Dvocas 18-20*: Izrada projektnog zadatka
  
