@@ -71,8 +71,17 @@ Materijali za kurs PyGame у Pajtonu
      <br> <img src="cas_12/slika.png" style="width:200px">
     * [Matrice i domaci](cas_12/matrice.md)
     * [Iks Oks sa komentarima](cas_12/iks_oks.py) 
+13. nedelja (6.3)
+    * [Obnavljanje](cas_13/tabla.jpg)
+14. nedelja (13.3)
+    * [Kretanje pomocu malih intervala vremena](cas_14/kretanje_delta.md)
+    * Kodovi: [auto.py](cas_14/auto.py) i [raketa.py](cas_14/raketa.py)
+     <br> <img src="cas_14/raketa.gif" style="height:200px">
 
-*Dvocas 14-17*: Programiranje igara, razliciti primeri
+*Dvocas 15-17*: Programiranje igara, razliciti primeri
+15. nedelja (20.3) - Zmijica 🐍
+16. nedelja (27.3) - Space Invaders 👾
+17. nedelja (3.4) - Flappy Bird 🐦
 
 *Dvocas 18-20*: Izrada projektnog zadatka
  
