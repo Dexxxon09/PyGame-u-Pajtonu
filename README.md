@@ -78,7 +78,8 @@ Materijali za kurs PyGame у Pajtonu
     * Kodovi: [auto.py](cas_14/auto.py) i [raketa.py](cas_14/raketa.py)
      <br> <img src="cas_14/raketa.gif" style="height:200px">
 
-*Dvocas 15-17*: Programiranje igara, razliciti primeri
+*Dvocas 15-17*: Programiranje igara, razliciti primeri  
+
 15. nedelja (20.3) - Zmijica 🐍  
 16. nedelja (27.3) - Space Invaders 👾  
 17. nedelja (3.4) - Flappy Bird 🐦  
