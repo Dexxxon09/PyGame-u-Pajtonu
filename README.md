@@ -85,6 +85,9 @@ Materijali za kurs PyGame у Pajtonu
 17. nedelja (3.4) - Flappy Bird 🐦  
 
 *Dvocas 18-20*: Izrada projektnog zadatka
+
+## Dodatni materijali
+* [Kako napraviti dugme u Pygame? (kod)](dodatni_materijali/dugmici.py)
  
 ## Korisni linkovi
 * [Petljin Python prirucnik](https://petlja.org/biblioteka/r/kursevi/prirucnik-python) (super ako zelite da obnovite osnove Pajtona)
