@@ -5,9 +5,10 @@ pygame.init()
 prozor = pygame.display.set_mode((500,500))
 sat = pygame.time.Clock()
 
+pygame.display.set_caption("Zmija")
+
 dimenzija = 25  # velicina polja
 vel_kvadrata = 20  # piksela
-
 
 zmija = [(1,1), (1,2), (2,2), (3,2)]
 pravac = "DESNO"
@@ -48,13 +49,16 @@ while program_radi:
     nova_glava = (red, kolona)
 
     if red < 0 or kolona < 0 or red >= dimenzija or kolona >= dimenzija or nova_glava in zmija:
+        print("GAME OVER")
+        print("Final score:", (len(zmija)-4)*100)
         pygame.quit()
         exit(0)
 
     zmija.append(nova_glava)
 
     if nova_glava == hrana:
-        print("POJELI HRANU")
+        print("SCORE:", (len(zmija)-4)*100)
+        pygame.display.set_caption("Zmija | Score: " + str((len(zmija)-4)*100))
         while hrana in zmija:
             hrana = (random.randint(0,24), random.randint(0,24))
     else:
