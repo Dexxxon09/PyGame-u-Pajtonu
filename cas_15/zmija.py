@@ -78,7 +78,11 @@ while program_radi:
     (slupala se sama o sebe), igrac je izgubio pa igru prekidamo
     """
     if red < 0 or kolona < 0 or red >= dimenzija or kolona >= dimenzija or nova_glava in zmija:
-        print("GAME OVER")
+        font = pygame.font.SysFont("Arial", 50)
+        text = font.render("Game Over", True, pygame.Color("white"), pygame.Color("blue"))
+        prozor.blit(text, (120, 220))
+        pygame.display.flip()
+        pygame.time.wait(2000)
         print("Final score:", (len(zmija) - 4) * 100)
         pygame.quit()
         exit(0)

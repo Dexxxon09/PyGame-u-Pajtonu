@@ -68,7 +68,10 @@ Materijali za kurs PyGame у Pajtonu
     * [Kostur programa](cas_08/template.py)
 12. nedelja (6.2)
     * [paint.py](cas_12/paint.py) i [poboljsan paint.py](cas_12/paint_poboljsan.py) 
-     <br> <img src="cas_12/slika.png" style="width:200px">
+        <details>
+            <summary>Macka</summary>
+            <img src="cas_12/slika.png" style="width:250px">
+        </details>
     * [Matrice i domaci](cas_12/matrice.md)
     * [Iks Oks sa komentarima](cas_12/iks_oks.py) 
 13. nedelja (6.3)
@@ -76,11 +79,19 @@ Materijali za kurs PyGame у Pajtonu
 14. nedelja (13.3)
     * [Kretanje pomocu malih intervala vremena](cas_14/kretanje_delta.md)
     * Kodovi: [auto.py](cas_14/auto.py) i [raketa.py](cas_14/raketa.py)
-     <br> <img src="cas_14/raketa.gif" style="height:200px">
+        <details>
+            <summary>Raketa (gif)</summary>
+            <img src="cas_14/raketa.gif" style="height:250px">
+        </details>
 
 *Dvocas 15-17*: Programiranje igara, razliciti primeri  
 
 15. nedelja (20.3) - Zmijica 🐍  
+    * [liste.py - brisanje i dodavanje elemenata u listi](cas_15/liste.py)
+    * [tekst.py - prikazivanje teksta](cas_15/tekst.py)
+      * [Aliased slika](cas_15/aliased.png) i [Anti-Aliased slika](cas_15/anti-aliased.png)
+    * [zmija.py](cas_15/zmija.py)
+     <br> <img src="cas_15/zmija.gif" style="height:300px">
 16. nedelja (27.3) - Space Invaders 👾  
 17. nedelja (3.4) - Flappy Bird 🐦  
 
