@@ -91,8 +91,15 @@ Materijali za kurs PyGame у Pajtonu
     * [tekst.py - prikazivanje teksta](cas_15/tekst.py)
       * [Aliased slika](cas_15/aliased.png) i [Anti-Aliased slika](cas_15/anti-aliased.png)
     * [zmija.py](cas_15/zmija.py)
-     <br> <img src="cas_15/zmija.gif" style="height:300px">
+        <details>
+            <summary>Zmija (gif)</summary>
+            <img src="cas_15/zmija.gif" style="height:300px">
+        </details>
 16. nedelja (27.3) - Space Invaders 👾  
+    * [invaders.py sa komentarima](cas_16/invaders.py)
+        <br> <img src="cas_16/invaders.gif" style="height:300px">
+    * BONUS: [pucanje sa vise metaka](cas_14/bonus.py)
+        <br> <img src="cas_16/poocac.gif" style="height:300px">
 17. nedelja (3.4) - Flappy Bird 🐦  
 
 *Dvocas 18-20*: Izrada projektnog zadatka
