@@ -100,9 +100,16 @@ Materijali za kurs PyGame у Pajtonu
         <br> <img src="cas_16/invaders.gif" style="height:300px">
     * BONUS: [pucanje sa vise metaka](cas_14/bonus.py)
         <br> <img src="cas_16/poocac.gif" style="height:300px">
-17. nedelja (3.4) - Flappy Bird 🐦  
+17. nedelja (3.4) - Pong
+    * Zadatak: pravimo klon igre [pong](https://www.ponggame.org/)
 
-*Dvocas 18-20*: Izrada projektnog zadatka
+*Dvocas 18-20*: Izrada projektnog zadatka  
+
+18. nedelja (17.4) - Pong (zavrsavamo)  
+19. nedelja (8.5) - Projektni zadatak  
+20. nedelja (22.5) - Projektni zadatak  
+
+> Rezervni termin 29.5
 
 ## Dodatni materijali
 * [Kako napraviti dugme u Pygame? (kod)](dodatni_materijali/dugmici.py)
