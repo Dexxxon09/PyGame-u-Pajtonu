@@ -105,7 +105,8 @@ Materijali za kurs PyGame у Pajtonu
 
 *Dvocas 18-20*: Izrada projektnog zadatka  
 
-18. nedelja (17.4) - Pong (zavrsavamo)  
+18. nedelja (17.4) - Pong (zavrsavamo) 
+    * [pong.py](cas_18/pong.py) 
 19. nedelja (8.5) - Projektni zadatak  
 20. nedelja (22.5) - Projektni zadatak  
 
